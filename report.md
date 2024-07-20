@@ -25,7 +25,8 @@ Github link for the code of random trees i used:https://github.com/KyujinHan/Obj
 4 Hence this was probably the best model till now . Even though this is not the best model out of the 3 in latency , it is the best as an overall balance between the latency and redundancy.<br>
 
 SUMMARY:
-                    Basic_model      Quantized_model       External_model
-loss(mse)             <0.5             <2                     <0.3
-time/prediction    1millisecond     <2 microseconds        <20 microseconds
+|                |    Basic_model  |    Quantized_model    |   External_model |
+|----------------|-----------------|-----------------------|------------------|
+|loss(mse)       |     <0.5        |    <2                 |   <0.3           |
+|time/prediction |  1millisecond   | <2 microseconds       |<20 microseconds  |
 
